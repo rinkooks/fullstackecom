@@ -1,0 +1,21 @@
+PORT=5000
+
+CONNECTION_STRING=mongodb+srv://ecommerce_db_user:admin123@cluster0.qyqodls.mongodb.net
+
+//db email sharma.rinkoo
+
+//cloudinary uideveloper1786
+
+cloudinary_Config_Cloud_name=da8g1ubsj
+cloudinary_Config_api_key=332155298249558
+cloudinary_Config_api_secret=LYHYzszPnk1B161c8rx1KjWKPC4
+
+JSON_WEB_TOKEN_SECRET_KEY="sharma1786"
+
+REACT_APP_RAZORPAY_KEY_ID=rzp_test_SofMnpMplIMjdy
+REACT_APP_RAZORPAY_SECRET_ID=3hyd1g55GJgrqLJlSwaD80vT
+
+EMAIL = uideveloper1786@gmail.com
+EMAIL_PASS = pckxiblvdntlxcud
+
+ 
