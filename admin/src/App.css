@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html, body{margin:0px;padding:0px;font:14px/1.5em, 'Inter', sans-serif;width:100%;height:100%;}
+h1,h2,h3,h4,h5,h6{font:14px/1.5em 'Poppins', sans-serif;}
+
+.flex-page{display:flex;flex-direction:column;width:100%;height:100%;}
+.body-sec{display:flex;margin-bottom:auto;background-color:#f5f7fc;}
+div#root{width:100%;height:100%;}
+.topHead{background:#fff;padding:10px 15px;box-shadow:0px 0px 4px rgba(0,0,0,0.07);}
+.topHead button{font-size:24px;width:auto;min-width:auto;padding:0px;}
+.comp-name{font-size:22px;font-family:'Roboto', sans-serif;font-weight:500;}
+.comp-logo{padding:5px 10px 15px;margin-bottom:10px;}
+.comp-logo img{max-width:100%;max-height:100%;}
+
+.left-sidebar{width:250px;flex-shrink:0;padding:10px 15px;background:#140f56;box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+min-height:calc(100vh - 103px);color:#fff;}
+.left-sidebar.toggle{width:140px;}
+nav.menu ul li a span{display:block;}
+.left-sidebar.toggle nav.menu ul li ul.submenu li button{padding:5px 2px;text-transform:capitalize;text-align: left;
+font-weight:400;font-size:14px;}
+.right-page{width:100%;}
+.main-container{padding:25px;}
+.main-container h1{font-size:28px;margin-bottom:0px;}
+.breadcrumbs{margin-left:auto;}
+.breadcrumbs ul{list-style:none outside none;margin:0px;padding:0px;}
+.breadcrumbs ul li{display:inline-block;padding:2px 8px;}
+.breadcrumbs ul li a{text-decoration:none;}
+nav.menu ul{list-style:none outside none;margin:0px;padding:0px;}
+nav.menu ul li a{text-decoration:none;}
+nav.menu ul li a button{display:flex;padding:10px 15px;text-decoration:none;color:#fff;align-items:center;justify-content:space-between;
+width:100%;font-size:13px;text-transform:capitalize;}
+nav.menu ul li a.active button{background:#7d2df9;border-radius:5px;}
+nav.menu ul li a button svg{width:14px;height:14px;}
+nav.menu ul li a button span svg{width:20px;height:20px;vertical-align:middle;margin-right:5px;}
+nav.menu ul li a.active button span svg{color:#fff;}
+
+nav.menu ul li ul.submenu.colapse{display:block;}
+nav.menu ul li ul.submenu.colapsed{display:none;}
+nav.menu ul li ul.submenu li a button{font-size:12px;padding:5px 15px;}
+nav.menu ul li ul.submenu{margin-left:24px;}
+
+.dashboardBox.clrBox1{background-color:#f5f3fd;}  
+.dashboardBox.clrBox2{background-color:#f6fbf9;}
+.dashboardBox.clrBox3{background-color:#fefaf5;}
+.dashboardBox.clrBox4{background-color:#fff8fd;}
+
+form label{font-size:14px;margin-bottom:7px;}
+form input.form-control{color:#777;}
+form input::placeholder{color:#777;}
+button{padding:7px 20px;display:inline-block;background-color:#00abed;color:#fff;border:1px solid #00abed;border-radius:7px !important;}
+.MuiSelect-select{min-height:auto;padding:1px 0px 0px !important;}
+
+.proImg{width:60px;height:60px;border:1px solid #eee;}
+.proImg img{max-width:100%;max-height:100%;}
+.proName{font-weight:600;;}
+.dot{width:35px;height:35px;border-radius:100%;display:inline-block;border:1px solid #ccc;}
+.actions button{min-width:inherit !important;padding:7px 12px;font-size:17px;}
+button .loader{width:25px !important;height:25px !important;margin-left:8px !important;}
+
+
+footer{background:#fff;padding:10px 15px 15px;box-shadow:0px -3px 4px rgba(0,0,0,0.1);}
+.copyright{font-size:16px;text-align:center;}
+.copyright a{color:blue;text-decoration:none;}
+
+.loaderProg{height:5px !important;}
+form#subscription-form > div{padding-top:0px;}
+.MuiDialog-scrollPaper h2{padding-bottom:5px;}
+
+.stickyBox{position: sticky;top:0px;}
+.imgGrid{width:100%;flex-wrap:wrap;display:flex;gap:10px;}
+.imgGrid .img{width:48%;height:170px;border-radius:7px;overflow:hidden;}
+.imgGrid .img img{width:100%;height:100%;object-fit:cover;}
+
+.imgRow{display:flex;}
+body.light{background-color:#ffffff;color:#000000;}
+body.dark{background-color:#121212;color:#ffffff;}
+/* example */
+.dark header{background:#1e1e1e;}
+.light header{background:#f8f9fa;}
+
+.imgUploadBox{width:100%;gap:15px;}
+.imgUpload{width:220px;height:240px;padding:10px;border:1px dashed rgba(0,0,0,0.2);border-radius:8px;position:relative;display:flex;
+justify-content:center;align-items:center;}
+.imgUpload img{max-width:100%;height:100%;}
+.imgUpload input{position:absolute;width:100%;height:100%;opacity:0;cursor: pointer;}
+.imgUpload .fileInfo{display:flex;justify-content:center;align-items:center;font-size:18px;flex-wrap:wrap;text-align:center;pointer-events:none;}
+.imgUpload .fileInfo svg{font-size:48px;opacity:0.5;}
+.imgUpload .fileInfo p{display:block;margin-bottom:0px;width:100%;margin-top:8px;}
+.imgUpload span.remove{position:absolute;right:0px;top:-8px;background:#e50808;line-height:0px;text-align:center;color:#fff;
+border-radius:10px;padding:2px;}
+
+.right-page.full{width:100%;padding:0px;}
+.loginPatern{position:fixed;top:0px;left:0px;right:0px;bottom:0px;background:url(./assets/images/ptrnBg.jpg) scroll repeat;}
+.loginSection .part1{color:#fff;}
+.loginSection .part2{color:#fff;background:rgba(0,0,0,0.7);}
+.loginSection .row{margin:0px;}
+.loginSection .part1 > div, .loginSection .part2 > div{padding:30px 20px;height:100%;}
+
+.loginBox input{background-color:rgba(0,0,0,0.2);border:1px solid rgba(255,255,255,0.4);padding:10px 15px 10px 33px;
+color:rgba(255,255,255,0.6);}
+.loginBox input::placeholder{color:rgba(255,255,255,0.6);}
+.loginBox .form-group{margin-bottom:18px;}
+.loginBox .form-group .icon{position:absolute;left:10px;top:9px;}
+.loginBox .form-group .toggleShowPassword{position:absolute;right:10px;top:8px;font-size:18px;}
+.loginBox input[type="checkbox"]{background-color:rgba(255,255,255,0.2);}
+.loginBox .css-imrjgg-MuiButtonBase-root-MuiCheckbox-root{color:rgba(255,255,255,0.7);padding:0px;border-width:1px;margin-left:8px;
+margin-right:7px;}
+.loginBox .form-control:focus{background-color:rgba(0,0,0,0.2);color:rgba(255,255,255,0.7);}
+.loginBox button.btn-blue{background-color:#00abed;color:#fff;padding:10px 15px;}
+
+.loginBox.login{max-width:450px;width:100%;margin:auto;color:#fff;margin-top:50px;padding-top:30px;padding-bottom:20px;}
+.loginBox.login .wrapper{padding:25px;background-color:rgba(0,0,0,0.4);border-radius:10px;}
+.loginBox span.txt{border:1px solid #ddd;padding:5px;text-transform:uppercase;width:40px;height:40px;display:flex;
+ align-items:center;justify-content:center;border-radius:40px;}
+.loginBox span.line{width:30%;height:1px;background:rgba(255,255,255,0.2);}
+
+.myAcc{text-align:left;text-transform:capitalize;}
+.myAcc .userImg{display:flex;align-items:center;justify-content:center;width:40px;height:40px;margin-right:8px;}
+.userImg .rounded-circle{display:flex;align-items:center;justify-content:center;width:100%;height:100%;overflow:hidden;
+cursor:pointer;background-color:#00abed;color:#fff !important;font-size:22px;}
+.userImg .rounded-circle img{object-fit:cover;width:100%;height:100%;}
+.userInfo h4{font-size:15px;margin-bottom:0;text-transform:capitalize;color:#1f1c43;}
+.userInfo p{text-transform:capitalize;font-size:12px;color:#333;}
+
+#account-menu .MuiMenu-list li > div{display:flex;align-items:center;width:100%;}
+#account-menu .MuiMenu-list li > div svg{margin-right:7px;}
+
+.tableFooter{padding-bottom:20px;}
+.tableFooter p{margin-bottom:0px;font-size:14px;font-weight:500;}
+.tableFooter .pagination{margin-left:auto;}
+
+.orderTable th, .orderTable td{white-space:nowrap;}
+.badge-danger{background-color:#d51243;}
+.text-blue{color:#0077b5;}
+.img{max-width:80px;height:60px;}.img img{max-width:100%;}
+.cursor{cursor:pointer;}
+
+.productModal .css-10d30g3-MuiPaper-root-MuiDialog-paper{margin:0px auto;max-width:800px;padding:20px;}
+.closeModel{position:absolute !important;right:10px;top:10px;width:40px;height:40px;border-radius:40px;border-radius:40px !important;
+min-width: auto !important;}
+.closeModel svg{font-size:22px;}
+
+.proZoombox{max-width:450px;border:1px solid #e7e7e7;display:inline-block;}
+.productZoom{width:100%;height:auto;border:1px solid rgba(0,0,0,0.1);padding:0px;overflow:hidden;}
+.zoomSliderBig{width:100%;}
+.zoomSlider{padding-top:30px;}
+.zoomSliderBig .slick-track{width:100%;}
+.zoomBig{height:350px;overflow:hidden;}
+.zoomBig img{max-width:100%;max-height:100%;}
+.item.thumbnail{text-align:center;}
+.thumbnail img{max-width:100%;max-height:70px;margin-right:7px;}
+.qntInput{width:40px;height:40px;text-align:center;border:none;outline:none;}
+button.qntminus, button.qntPlus{font-size:17px;background:#eee;width:45px;height:45px;display:flex;justify-content:center;align-items:center;border-radius:45px;font-weight:600;line-height:42px;min-width:auto;}
+.blue-btn{display:inline-block !important;background:#233a95 !important;color:#fff !important;min-width:auto !important;padding:9px 21px !important;border-radius: 23px !important;}
+.bdr-btn{border:1px solid #eee!important;padding:7px 15px 6px !important;}
+.bdr-btn svg{font-size:20px;margin-right:6px;}
+.btn-round{border-radius:30px !important;}
+.MuiPaper-root.MuiPaper-elevation24{max-width:800px;width:100%;}
+.details.lightBg .zoomBig{height:430px;overflow:hidden;}
+
+.slideList .proImg{max-width:300px;max-height:200px;width:auto;height:auto;}
+.slideList .proImg img{max-width:100%;max-height:180px;}
+
+.locationView{padding:7px 18px 7px 10px;border:1px solid #eee;display:flex;border-radius:10px;margin-right:15px;justify-content:center;
+align-items:center;position:relative;max-width:190px;cursor:pointer;}
+.locationView span{display:block;font-size:12px;color:#888;}
+.locationView strong{font-size:16px;font-weight:600;}
+.locationView svg{margin-left:18px;font-size:13px;color:#777;}
+.MuiDialog-paper{margin:0px;padding:25px;position:relative;}
+.closeModel{position:absolute !important;right:10px;top:10px;width:40px;height:40px;border-radius:40px;border-radius:40px !important;
+min-width:auto !important;}
+.closeModel svg{font-size:22px;}
+.locList{max-height:280px;overflow-y:auto;overflow-x:hidden;}
+.locList ul{list-style:none outside none;margin:0px;padding:0px;} 
+.locList ul li button{width:100%;justify-content:flex-start;padding:10px 15px;color:#666;font-weight:400;}
+.locList ul li button.active{background:#9cdef7;}
+.headerSearch{background:#eee;border:1px solid #e7e7e7;position:relative;width:500px;}
+.headerSearch input{padding:17px 50px 19px 20px;height:50px;border:none;width:100%;box-sizing:border-box;font-size:16px;background:none;
+outline:none;}
+.headerSearch button{width:45px;height:45px;display:flex;align-items:center;justify-content:center;position:absolute;right:5px;
+top:2px;min-width:inherit;border-radius:45px;font-size:22px;}
+
+.badge-primary{background:#0294e6;}
+

@@ -1,0 +1,8 @@
+.env
+.env2
+
+client/.env
+server/.env
+server/.env2
+
+node_modules/
